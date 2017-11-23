@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible">
+        <title>Email</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+<style type="text/css">
+        .pre-header {
+    color: white;
+    font-size: 1px;
+    line-height: 0;
+    background: white;
+    text-align: center;
+}
+.header-h2 {
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 10px;
+}
+.container-h2 {
+    font-size: 36px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .line-separator{  
+    height:1px;  
+    border-bottom:1px solid #dddddd;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+  ul li:before { 
+      content: none; }
+li {
+    display: inline;
+}
+.email-header {
+    display: flex;
+    flex-direction: row;
+}
+.email-header h2 {
+    text-align: right;
+    font-size: 10px;
+}
+.email-container {
+    max-width: 600px;
+    background: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 10px 20px;
+}
+img {
+    max-width: 100%;
+}
+.email-container-cta-section {
+    text-align: center;
+    margin-top: 30px;
+}
+.cta-btn {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    padding: 12px 50px;
+    background: #ff8b3e;
+    font-weight: bold;
+    border-radius: 15%/80% !important;
+    -webkit-border-radius: 15%/80% !important; 
+    -moz-border-radius: 15%/80% !important;
+}
+.email-container-footer-section {
+    color: #a9a9a9;
+    font-size: 10px;
+}
+.email-container-left-table {
+    width: 50%;
+}
+.email-container-right-table {
+    width: 50%;
+}
+.email-container-left-section {
+    text-align: center;
+} 
+.container-p {
+    text-align: center;
+}
+  @media (min-width: 550px) {
+    .container-h2 {
+    font-size: 36px !important;
+    line-height: 15px !important;
+}
+  }
+  @media (max-width: 420px)  {
+    .email-header-left,
+    .email-header-right,
+    .email-container-left-table,
+    .email-container-right-table
+    {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+      }
+    .email-container-left-table {
+        text-align: center !important;
+    }
+      h1 {
+          text-align: center !important;
+      }
+      .header-h2 {
+          text-align: center !important;
+      }
+      .header-span {
+        text-align: center !important;
+      }
+      ul {
+            padding: 0px !important;
+        }
+    .cta-btn {
+        padding: 12px 30px !important;
+    }
+}
+
+</style>
+<!--[if (gte mso 9)|(IE)]>
+<style>
+    .gmail-only {
+      background-color: #ff8b3e !important;
+      display: none !important;
+      max-height: 0px !important; 
+      font-size: 0px !important; 
+      overflow: hidden !important; 
+      mso-hide: all !important;
+   }
+   .email-container-gmail {
+   background-color: #ff8b3e !important;
+   display: none !important;
+         max-height: 0px !important; 
+      font-size: 0px !important; 
+      overflow: hidden !important; 
+      mso-hide: all !important;
+   }
+   .container-p {
+       background-color: white !important;
+   }
+   .li-span {
+       display: none !important;
+   }
+   ul {
+  list-style: none !important;
+}
+    ul li:before {
+       content: "✓" !important;
+       color: #1ebf62 !important;
+       margin-right: 15px !important;
+       font-size: 18px !important;
+   }
+</style>
+<![endif]-->
+
+       <!--[if mso]>
+    <style type="text/css">
+   .gmail-only {
+       background-color: #ff8b3e !important;
+        display: none !important;
+              max-height: 0px !important; 
+      font-size: 0px !important; 
+      overflow: hidden !important; 
+      mso-hide: all !important;"
+   }
+    .email-container-gmail {        
+       background-color: #ff8b3e !important;
+       display: none !important;
+             max-height: 0px !important; 
+      font-size: 0px !important; 
+      overflow: hidden !important; 
+      mso-hide: all !important;"
+   }
+     .container-p {
+       background-color: white !important;
+   }
+   .li-span {
+       display: none !important;
+   }
+   ul {
+  list-style: none !important;
+}
+    ul li:before {
+       content: "✓" !important;
+       color: #1ebf62 !important;
+       margin-right: 15px !important;
+       font-size: 18px !important;
+   }
+    </style>
+<![endif]-->
+    </head>
+    <body>
+        <div style="background-color: #eeeeee; width: 100%;">
+            <table class="email-container" cellspacing="0" cellpadding="0" style="max-width:600px;background-color:white;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;font-family:'Lato', sans-serif;font-size:16px;margin-top:0px;margin-bottom:0px;margin-right:auto;margin-left:auto;padding-top:10px;padding-bottom:10px;padding-right:20px;padding-left:20px;" >
+                    <tbody>
+                    <tr>        
+                    <td class="email-header-left"><div class="email-header" style="display:flex;flex-direction:row;" ></div><h1><a href="https://emidas.pl/" title="Link do emidas.pl"><img src="http://www.pazaak.stronazen.pl/test/logo.png" alt="Logo EM IDAS" class="img-responsive" style="max-width:100%;" ></a></h1></td>
+                    <td class="email-header-left"><h2 class="header-h2" style="text-align:right;font-size:14px;font-weight:normal;line-height:14px;" >Producent naklejek 3D <span class="header-span" style="text-align:right;font-size:14px;font-weight:normal;line-height:16px;display:block;" >i artykułów promocyjnych</span></h2></td>            
+                    </tr>
+                    <tr>
+                            <td colspan="2"><div class="line-separator" style="height:1px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dddddd;margin-top:10px;margin-bottom:10px;" ></div></td>
+                    </tr>
+                    <tr>
+                    <td class="email-container-left-table" style="width:50%;" >
+                            <div class="email-container-left-section" style="text-align:center;" >
+                            <a href="https://emidas.pl/" title="Link do emidas.pl">
+                            <img src="http://www.pazaak.stronazen.pl/test/naklejka.png" alt="Naklejka Gallery of Modern Art" style="max-height:280px;margin-top:20px;max-width:100%;" ></a>
+                        </div>
+                        </td>
+                    <td class="email-container-right-table" style="width:50%;" >
+                            <div class="email-container-right-section">
+                                    <h2 class="container-h2" style="font-size:36px;line-height:30px;" >Potrzebujesz </h2>
+                                    <h2 class="container-h2" style="font-size:36px;line-height:30px;" >naklejek 3D?</h2>
+                                    <p>Jesteśmy wśród liderów na rynku od ponad 10 lat. Gwarantujemy:</p>
+                                    <ul style="list-style-type:none;list-style-position:outside;list-style-image:none;" >
+                                        <div style="width:100%;" ><li style="display:inline;" ><span class="li-span" style="color: #1ebf62;margin-right: 15px;font-size: 18px;">✓</span> brak ilości minimalnych</li></div>
+                                        <div style="width:100%;" ><li style="display:inline;" ><span class="li-span" style="color: #1ebf62;margin-right: 15px;font-size: 18px;">✓</span> szybkie wyceny oraz <span style="margin-left: 32px; display:block;">fachową obsługę</span></li></div>
+                                        <div style="width:100%;" ><li style="display:inline;" ><span class="li-span" style="color: #1ebf62;margin-right: 15px;font-size: 18px;">✓</span> wysoką jakość druku</li></div>
+                                        <div style="width:100%;" ><li style="display:inline;" ><span class="li-span" style="color: #1ebf62;margin-right: 15px;font-size: 18px;">✓</span> dowolne kształty i rozmiary</li></div>
+                                        <div style="width:100%;" ><li style="display:inline;" ><span class="li-span" style="color: #1ebf62;margin-right: 15px;font-size: 18px;">✓</span> bezpieczne materiały</li></div>
+                                    </ul>
+                                </div>
+                    </td>
+                    </tr>
+
+
+  <tr>
+  <tbody>
+                    <!--[if mso]>
+  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://emidas.pl/" style="height:40px;v-text-anchor:middle;width:400px;" arcsize="10%" stroke="f" fillcolor="#ff8b3e">
+    <w:anchorlock/>
+    <tr>
+        <td colspan="2" align="center" width="400" height="40" bgcolor="#ff8b3e" style="text-align: center; margin-top:30px; -webkit-border-radius:  15%/80%; -moz-border-radius:  15%/80%; border-radius:  15%/80%; color: #ffffff; display: block;">
+            <a href="https://emidas.pl/" title="Link do emidas.pl" style="text-align: center; color:#ffffff; font-size:16px; font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:40px; width:100%; display:inline-block">
+                <span style="color: #ffffff; text-align: center;">
+                Odwiedź naszą stronę
+                </span>
+            </a>
+            </td>   
+      <td colspan="2" style="text-align: center;">
+    <p>lub napisz na <a href="mailto:info@emidas.pl" title="Link do emidas.pl">info@emidas.pl</a></p></td>
+      </tr>
+       </v:roundrect>
+  <![endif]-->
+               
+<td colspan="2">
+        <div class="email-container-cta-section email-container-gmail" style="text-align:center;margin-top:30px;" >         
+      <a  class="gmail-only" href="https://emidas.pl/" title="Link do emidas.pl" style="text-decoration:none;display:inline;color:white;padding-top:15px;padding-bottom:15px;padding-right:50px;padding-left:50px;background-color: #ff8b3e;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;font-weight:bold;border-radius:15%/80% !important; -webkit-border-radius: 15%/80% !important; -moz-border-radius: 15%/80% !important;" >Odwiedź naszą stronę</a></div> 
+      <div class="email-container-cta-section">
+      <p class="container-p">lub napisz na <a href="mailto:info@emidas.pl" title="Link do emidas.pl">info@emidas.pl</a></p> 
+    </div>    
+</td>
+</tbody>
+</tr>
+
+           <tr>
+                    <td colspan="2">
+                            <div class="line-separator" style="height:1px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#dddddd;margin-top:10px;margin-bottom:10px;" ></div></td>
+                    </tr>
+                    <tr>
+                    <td colspan="2">
+                            <div class="email-container-footer-section" style="color:#a9a9a9;font-size:10px;" >
+                            <p>Proin vel nunc quam. Vivamus vulputate bibendum enim. Sed condimentum ipsum at lacus molestie, vitae consequat sapien volutpat. Nunc a tincidunt nulla. Suspendisse id lorem non quam consequat convallis nec at erat. Donec sem sapien, sodales a ipsum vel, sollicitudin aliquet ligula. Sed diam erat, feugiat sit amet odio et, auctor vulputate nisi. Duis faucibus augue in purus vulputate suscipit. Vivamus ullamcorper aliquam finibus. </p>
+                            </div></td>
+                    </tr>
+                    </tbody>
+                    </table>
+                </div>
+    </body>
+</html>

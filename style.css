@@ -1,0 +1,113 @@
+.pre-header {
+    color: white;
+    font-size: 1px;
+    line-height: 0;
+    background: white;
+    text-align: center;
+}
+.header-h2 {
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 10px;
+}
+.container-h2 {
+    font-size: 36px;
+    line-height: 30px;
+}
+/* 
+.email-container-left-section {
+    max-width: 50%;
+}
+.email-container-right-section {
+    max-width: 50%;
+} */
+ul {
+    list-style: none;
+  }
+  .line-separator{  
+    height:1px;  
+    border-bottom:1px solid #dddddd;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    /*
+  ul li:before {
+    content: '✓';
+    color: #1ebf62;
+    margin-right: 15px;
+    font-size: 18px;
+  } */
+  ul li:before { 
+      content: none; }
+li {
+    display: inline;
+}
+.email-header {
+    display: flex;
+    flex-direction: row;
+}
+.email-header h2 {
+    text-align: right;
+    font-size: 10px;
+}
+.email-container {
+    max-width: 600px;
+    background: white;
+    font-family: "Open-Sans";
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 10px 20px;
+}
+img {
+    max-width: 100%;
+}
+.email-container-cta-section {
+    text-align: center;
+    margin-top: 30px;
+}
+.cta-btn {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 12px 50px;
+    background: #ff8b3e;
+    font-weight: bold;
+    border-radius: 15%/80%;
+}
+.email-container-footer-section {
+    color: #a9a9a9;
+    font-size: 10px;
+}
+.email-container-left-table {
+    width: 50%;
+}
+.email-container-right-table {
+    width: 50%;
+}
+@media screen and (max-width: 420px) {
+    .email-header-left,
+    .email-header-right,
+    .email-container-left-table,
+    .email-container-right-table
+    {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+      }
+    .email-container-left-table {
+        text-align: center !important;
+    }
+      h1 {
+          text-align: center !important;
+      }
+      .header-h2 {
+          text-align: center !important;
+      }
+      ul {
+            padding: 0px !important;
+        }
+    .cta-btn {
+        padding: 12px 30px;!important;
+    }
+}
